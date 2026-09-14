@@ -1,0 +1,19 @@
+{
+  "name": "adhithan-super-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Adhithan — AI Engineer super portfolio, Three.js + Anime.js, Vite static, ready for Render",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animejs": "3.2.2",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

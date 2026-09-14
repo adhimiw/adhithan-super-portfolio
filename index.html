@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adhithan — AI Engineer | Field Notebook</title>
+  <meta name="description" content="Adhithan — AI / Python / ML engineer. Retro-vintage-doodle portfolio with Three.js ink field + Anime.js. GI detection, freshness vision, Node + Mongo craft." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Delius+Swash+Caps&family=Silkscreen:wght@400;700&family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23F4F1EA' stroke='%231C1917' stroke-width='6'/><circle cx='50' cy='50' r='18' fill='none' stroke='%23C55221' stroke-width='7'/><circle cx='50' cy='50' r='6' fill='%23CC8800'/></svg>" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <canvas id="webgl" aria-hidden="true"></canvas>
+
+  <header class="nav doodle-border">
+    <a class="brand" href="#top"><span class="stamp-mini">EST. 2024</span> adhithan<span class="dim">.dev</span></a>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Stack</a>
+      <a href="#projects">Work</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="cta">✎ Let's build</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="ticket doodle-border" data-reveal>
+        <span class="ticket-stub">ADMIT ★ ONE</span>
+        <span class="mono" id="terminal">$ portfolio --user="adhithan" --mode="field-notes"</span>
+        <span class="stamp">FRESH ★ NEW</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="line" data-reveal>Adhithan builds</span>
+        <span class="line accent" data-reveal>thinking machines</span>
+        <span class="line" data-reveal>with a sketchbook soul.</span>
+      </h1>
+      <svg class="squiggle" viewBox="0 0 400 24" aria-hidden="true"><path id="squigglePath" d="M5 14 C 60 4, 120 22, 180 12 S 300 4, 395 14" fill="none" stroke="#C55221" stroke-width="5" stroke-linecap="round"/></svg>
+      <p class="lede" data-reveal>AI engineer — Python, PyTorch, full-stack JS. I ship vision systems for healthcare + farms, with backends that behave. This edition is drawn like a lab notebook: taped photos, stamped certs, ink-dot 3D.</p>
+      <div class="hero-actions" data-reveal>
+        <a class="btn primary" href="#projects">.viewProjects() ✎</a>
+        <a class="btn ghost" href="#about">.aboutMe()</a>
+      </div>
+      <p class="handnote" data-reveal>↳ psst — drag to orbit the ink field, scroll to dive! <span class="mono">function AI() { healthcare vision }</span></p>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-inner">★ PYTORCH ★ DEEP LEARNING ★ NODE.JS ★ MONGODB ★ THREE.JS ★ ANIME.JS ★ RETRO ★ VINTAGE ★ DOODLE ★ IMPECCABLE ★ PYTORCH ★ DEEP LEARNING ★ NODE.JS ★ MONGODB ★</div></div>
+
+    <section class="panel band-cream" id="about">
+      <p class="eyebrow">✎ profile.tsx — field entry #01</p>
+      <div class="about-grid">
+        <figure class="polaroid doodle-border" data-reveal>
+          <span class="tape"></span>
+          <img src="https://res.cloudinary.com/deaqqak9w/image/upload/v1754403437/portfolio/images/fyhcqgipuuwqjnms1b13.jpg" alt="Adhithan portrait" loading="lazy" />
+          <figcaption><span class="mono">&lt;Profile name="Adhithan" role="AI" /&gt;</span><span class="handnote">that's me, probably debugging ☕</span></figcaption>
+        </figure>
+        <div data-reveal>
+          <h2>Enthusiastic, versatile programmer who likes hard problems.</h2>
+          <p>Old home was React + Express + Mongo on Render. New home is instant static — same real work, none of the cold-start pain. Models from notebook to production: data, training, eval, then a fast app around them.</p>
+          <ul class="ticks">
+            <li>Python + PyTorch first, JS when it needs to ship</li>
+            <li>DBMS + APIs + deploys that survive free-tier life</li>
+            <li>Open to internships, freelance vision builds, research collabs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel band-orange" id="skills">
+      <p class="eyebrow">✎ ledger — technical proficiency</p>
+      <h2 data-reveal>Stack with receipts.</h2>
+      <div class="skill-grid" id="skillGrid"></div>
+    </section>
+
+    <section class="panel band-cream wide" id="projects">
+      <p class="eyebrow">✎ showcase — pinned with love</p>
+      <h2 data-reveal>Featured work.</h2>
+      <p class="sub" data-reveal>Carried forward from the old portfolio, reframed as specimen cards.</p>
+      <div class="project-grid" id="projectGrid"></div>
+      <div class="center" data-reveal><a class="btn ghost" href="https://github.com/adhimiw" target="_blank" rel="noreferrer">More on GitHub →</a></div>
+    </section>
+
+    <section class="panel band-orange" id="journey">
+      <p class="eyebrow">✎ stamped & verified</p>
+      <h2 data-reveal>Certs and momentum.</h2>
+      <div class="timeline">
+        <div class="t-item doodle-border" data-reveal><span class="pixel">2024 — COURSERA ★ VERIFIED</span><h3>Google IT Automation with Python</h3><p>Six-course professional cert — Python, Git, troubleshooting, automation at scale. 80%+ throughout.</p><a href="https://coursera.org/verify/professional-cert/7HLF9EJNU4D2" target="_blank" rel="noreferrer">Verify certificate</a></div>
+        <div class="t-item doodle-border" data-reveal><span class="pixel">2025 — DEEP LEARNING</span><h3>GI detection + freshness detection</h3><p>TensorFlow/Keras + PyTorch, GoogLeNet / DenseNet-201 / ResNeXt-101 with PCA-LDA-SVC fusion.</p></div>
+        <div class="t-item doodle-border" data-reveal><span class="pixel">2026 — NOW ★ OPEN</span><h3>Super portfolio + collabs</h3><p>Rebuilt open with Three.js ink + Anime.js hand motion. Next: video + edge vision.</p></div>
+      </div>
+    </section>
+
+    <section class="panel band-cream contact" id="contact">
+      <p class="eyebrow">✎ postcard — /* make something wonderful */</p>
+      <h2 data-reveal>Have an idea? Sketch it with me.</h2>
+      <div class="hero-actions" data-reveal>
+        <a class="btn primary" href="mailto:hello@adhithan.dev?subject=Project%20idea">✉ hello@adhithan.dev</a>
+        <a class="btn ghost" href="https://github.com/adhimiw/Adhithan-Dev_portfolio" target="_blank" rel="noreferrer">Old repo</a>
+        <a class="btn ghost" href="https://adhithan-dev-portfolio.onrender.com/" target="_blank" rel="noreferrer">Old live site</a>
+      </div>
+      <p class="mono foot" data-reveal>&lt;Portfolio&gt; &lt;Projects /&gt; &lt;Skills /&gt; &lt;Experience /&gt; &lt;/Portfolio&gt; — drawn, not templated.</p>
+    </section>
+  </main>
+
+  <footer class="mono">retro ★ vintage ★ doodle ★ impeccable — Macondo / Silkscreen / Delius / Chakra / Mono • three.js ink + anime.js hand • © 2026 Adhithan</footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
