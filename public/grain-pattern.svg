@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140">
+  <defs>
+    <filter id="n" x="-50%" y="-50%">
+      <feTurbulence baseFrequency="0.9" numOctaves="2" />
+    </filter>
+    <filter id="g">
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .06 0" />
+    </filter>
+    <rect width="140" height="140" filter="url(#g)" />
+  </defs>
+</svg>
